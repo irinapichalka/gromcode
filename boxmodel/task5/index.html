@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Box Model</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      div {
+        border: 2px solid black;
+        padding: 50px;
+      }
+      .first-box {
+        margin: 50px;
+
+        background-color: blue;
+      }
+      .second-box {
+        background-color: yellow;
+      }
+      .third-box {
+        background-color: green;
+      }
+      .fourth-box {
+        background-color: pink;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="first-box">
+      <div class="second-box">
+        <div class="third-box">
+          <div class="fourth-box"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
