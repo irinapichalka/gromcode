@@ -1,21 +1,26 @@
 .header{
-    background-color: turquoise;
+    background-color: darkturquoise;
     height: 40px;
     position:fixed;
     width:100%;
     z-index: 2;
 }
-.navigation{
+/*.navigation{
     height: 40px;
-    line-height: 1.1;
+    line-height: 40px;
 
-}
-.nav-item{
+}*/
+.nav-list {
+    margin: 0;
+    line-height: 40px;
+    list-style: none;
+  }
+  
+  .nav-item {
     float: left;
     margin-left: 16px;
     color: white;
-    list-style-type: none;
-}
+  }
 
 .content{
     background-color: beige;
