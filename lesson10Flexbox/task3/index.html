@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .all-page{
+          height: 100vh;
+          display: flex;
+          flex-direction: column;    
+      }
+      .header {
+        height: 40px;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+      }
+      .navigation{
+          display: flex;
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+    }
+    .navigation-item{
+        margin-left: 16px;
+    }
+      .footer {
+          display:flex;
+        height: 40px;
+        background-color: green;
+      }
+      .footer-text{
+          margin: auto;
+      }
+      .content {
+        display: flex;
+        flex-grow: 2;
+      }
+     
+      .section-content{
+          background-color: pink;
+          flex-grow: 2;
+          display: flex;
+          
+      }
+      .section-content>h2{
+        margin: auto;
+      }
+      .aside-content{
+          background-color: gray;
+          width: 200px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      .aside-content>h2{
+          margin: 16px 0;
+      }
+      .news-list{
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+    }
+    .news-list-item{
+        margin-left: 16px;
+        height: 40px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="all-page">
+      <header class="header">
+          <ul class="navigation">
+              <li class="navigation-item">About</li>
+              <li class="navigation-item">Products</li>
+              <li class="navigation-item">Contacts</li>
+          </ul>
+      </header>
+      <main class="content">
+          <section class="section-content">
+              <h2>I can use Flexbox!!!</h2>
+          </section>
+          <aside class="aside-content">
+              <h2>News</h2>
+              <ul class="news-list">
+                <li class="news-list-item">News 1</li>
+                <li class="news-list-item">News 2</li>
+                <li class="news-list-item">News 3</li>
+            </ul>
+          </aside>
+      </main>
+      <footer class="footer"><span class="footer-text">Footer</span></footer>
+    </div>
+  </body>
+</html>
