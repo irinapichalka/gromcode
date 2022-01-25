@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
-    crossorigin="anonymous"
-  />
-  <style>
-      .text{
-          margin: 16px;
-          text-decoration: 1px dotted black;
-          display: inline-block;
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      .text {
+        margin: 16px;
+        border-bottom: 1px dotted black;
+        display: inline-block;
+        
       }
-      .tooltip{
-          background-color: gray;
-          color: white;
-          border-radius: 4px;
-          padding: 8px;
-          bottom: -40px;
-          display:block;
+      .tooltip {
+        display: none;
+        background-color: gray;
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        bottom: -40px;
       }
-  </style>
+      .text:hover .tooltip {
+        display: block;
+      }
+    </style>
   </head>
 
   <body>
@@ -31,6 +35,5 @@
       Hover over me
       <span class="tooltip">I'm a tooltip</span>
     </div>
-    
   </body>
 </html>
