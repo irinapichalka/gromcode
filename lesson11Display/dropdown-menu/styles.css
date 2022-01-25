@@ -1,15 +1,12 @@
-* {
-  box-sizing: border-box;
-}
+
 .dropdown {
   position: relative;
   display: inline-block;
   margin: 16px;
-  height: 50px;
   cursor: pointer;
 }
 .menu-button {
-  line-height: 50px;
+  display: block;
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
@@ -22,7 +19,6 @@
 .menu-list {
   display: none;
   position: absolute;
-  top: 50px;
   padding: 0;
   margin: 0;
   background-color: lightcyan;
