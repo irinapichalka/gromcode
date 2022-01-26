@@ -3,10 +3,11 @@ html{
 }
 .properties-list{
     list-style-type: none;
-}
-.properties-list__item{
     font-size: 24px;
     color: #f39;
-    line-height: 32px;
+    
+}
+.properties-list__item{
     padding: 8px;
+    line-height: 32px;
 }
