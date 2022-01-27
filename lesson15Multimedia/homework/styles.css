@@ -18,9 +18,17 @@
     opacity:1;
 }
 .image{
-    max-width:500px;
+    max-width:100%;
     display:block; 
     margin:0 auto;
-    min-width: 0;
-    
 }
+/*.image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }*/
