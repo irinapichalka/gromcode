@@ -13,14 +13,11 @@
       *{
         box-sizing: border-box;
       }
-      input, select, button, textarea{
+      .input-margin{
         display: block;
         margin: 8px;
       }
-      input[type="radio"]
-      {
-        display: inline;
-      }
+
       form{
         margin: 32px;
       }
@@ -29,35 +26,35 @@
 
   <body>
     <form>
-    <input type="text" name="primaryLanguage" value="HTML" disabled>
-    <input type="checkbox" name="agree" >
-    <input type="checkbox" name="like" checked disabled>
-    <input type="color" name="favouriteColor" value="#ff7f50">
-    <input type="date" name="birthDate" value="2021-01-02">
-    <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
-    <input type="email" name="email-example" placeholder="example@domain.com" required>
-    <input type="file" name="avatar">
-    <input type="month" name="startLearning" value="2020-01">
-    <input type="number" name="favouriteNumber" value="17">
-    <textarea name="story" rows="5" maxlength="150"  placeholder="A long time ago..."></textarea>
-      <input type="password" name="secret-password" value="secret">
-      <div class="languages">
+    <input class="input-margin" type="text" name="primaryLanguage" value="HTML" disabled>
+    <input class="input-margin" type="checkbox" name="agree" >
+    <input class="input-margin" type="checkbox" name="like" checked onclick="return false">
+    <input class="input-margin"type="color" name="favouriteColor" value="#ff7f50">
+    <input class="input-margin" type="date" name="birthDate" value="2021-01-02">
+    <input class="input-margin" type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+    <input class="input-margin" type="email" name="email-example" placeholder="example@domain.com" required>
+    <input class="input-margin" type="file" name="avatar">
+    <input class="input-margin" type="month" name="startLearning" value="2020-01">
+    <input class="input-margin" type="number" name="favouriteNumber" value="17">
+    <textarea class="input-margin" class="input-margin" name="story" rows="5" maxlength="150"  placeholder="A long time ago..."></textarea>
+      <input class="input-margin" type="password" name="secret-password" value="secret">
+      <div class="languages input-margin">
         <input type="radio" name="html">HTML
         <input type="radio" name="css" checked>CSS
         <input type="radio" name="javascript">Javascript
 
       </div>
-      <input type="range" name="learningProgress" value="30">
-      <select name="framework"> <!--Supplement an id here instead of using 'name'-->
+      <input type="range" class="input-margin" name="learningProgress" value="30">
+      <select class="input-margin" name="framework"> <!--Supplement an id here instead of using 'name'-->
         <option value="react">React</option>
         <option value="jquery" selected>jQuery</option>
         <option value="bootstrap">Bootstrap</option>
       </select>
-      <input type="search" name="search" placeholder="Type first letters...">
-      <input type="time" name="lunchEnd" value="14:01">
-      <input type="url" name="website" placeholder="https://website.com" required>
-      <input type="week" name="birthWeek" value="2021-W51">
-      <button type="submit">Save</button>
+      <input class="input-margin" type="search" name="search" placeholder="Type first letters...">
+      <input class="input-margin" type="time" name="lunchEnd" value="14:01">
+      <input class="input-margin" type="url" name="website" placeholder="https://website.com" required>
+      <input class="input-margin" type="week" name="birthWeek" value="2021-W51">
+      <button class="input-margin" type="submit">Save</button>
   </form>
   </form>
    
