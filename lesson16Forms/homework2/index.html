@@ -13,7 +13,7 @@
       *{
         box-sizing: border-box;
       }
-      input, select, button{
+      input, select, button, textarea{
         display: block;
         margin: 8px;
       }
@@ -31,16 +31,16 @@
     <form>
     <input type="text" name="primaryLanguage" value="HTML" disabled>
     <input type="checkbox" name="agree" >
-    <input type="checkbox" name="like" checked readonly>
+    <input type="checkbox" name="like" checked disabled>
     <input type="color" name="favouriteColor" value="#ff7f50">
     <input type="date" name="birthDate" value="2021-01-02">
     <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
-    <input type="email" placeholder="example@domain.com" required>
+    <input type="email" name="email-example" placeholder="example@domain.com" required>
     <input type="file" name="avatar">
     <input type="month" name="startLearning" value="2020-01">
     <input type="number" name="favouriteNumber" value="17">
-    <input type="textarea" name="story" rows="5" maxlength="150"  placeholder="A long time ago...">
-      <input type="password" value="secret">
+    <textarea name="story" rows="5" maxlength="150"  placeholder="A long time ago..."></textarea>
+      <input type="password" name="secret-password" value="secret">
       <div class="languages">
         <input type="radio" name="html">HTML
         <input type="radio" name="css" checked>CSS
