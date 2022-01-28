@@ -13,6 +13,9 @@ td,th{
     text-align: center;
     line-height: 50px;
 }
+th{
+    font-weight: normal;
+}
 td{
     border: 1px solid black;
     
