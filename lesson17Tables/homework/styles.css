@@ -5,7 +5,7 @@ table{
     margin: 16px;
     border:1px solid black;
     border-spacing: 0 !important;
-    /*border-collapse: collapse !important;*/
+    border-collapse: collapse !important;
 }
 td,th{
     width: 50px;
