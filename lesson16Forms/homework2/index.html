@@ -13,8 +13,7 @@
       *{
         box-sizing: border-box;
       }
-      .input-margin{
-        display: block;
+      div{
         margin: 8px;
       }
 
@@ -26,35 +25,75 @@
 
   <body>
     <form>
-    <input class="input-margin" type="text" name="primaryLanguage" value="HTML" disabled>
-    <input class="input-margin" type="checkbox" name="agree" >
-    <input class="input-margin" type="checkbox" name="like" checked onclick="return false">
-    <input class="input-margin"type="color" name="favouriteColor" value="#ff7f50">
-    <input class="input-margin" type="date" name="birthDate" value="2021-01-02">
-    <input class="input-margin" type="datetime-local" name="birthTime" value="2024-10-04T13:02">
-    <input class="input-margin" type="email" name="email-example" placeholder="example@domain.com" required>
-    <input class="input-margin" type="file" name="avatar">
-    <input class="input-margin" type="month" name="startLearning" value="2020-01">
-    <input class="input-margin" type="number" name="favouriteNumber" value="17">
-    <textarea class="input-margin" class="input-margin" name="story" rows="5" maxlength="150"  placeholder="A long time ago..."></textarea>
-      <input class="input-margin" type="password" name="secret-password" value="secret">
-      <div class="languages input-margin">
+      <div>
+    <input type="text" name="primaryLanguage" value="HTML" disabled>
+      </div>
+      <div>
+    <input type="checkbox" name="agree" >
+  </div>
+  <div>
+    <input type="checkbox" name="like" checked onclick="return false">
+  </div>
+  <div>
+    <inputtype="color" name="favouriteColor" value="#ff7f50">
+  </div>
+  <div>
+    <input type="date" name="birthDate" value="2021-01-02">
+  </div>
+  <div>
+    <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+  </div>
+  <div>
+    <input type="email" name="email-example" placeholder="example@domain.com" required>
+  </div>
+  <div>
+    <input type="file" name="avatar">
+  </div>
+  <div>
+    <input type="month" name="startLearning" value="2020-01">
+  </div>
+  <div>
+    <input type="number" name="favouriteNumber" value="17">
+  </div>
+  <div>
+    <textarea name="story" rows="5" cols="30" maxlength="150"  placeholder="A long time ago..."></textarea>
+  </div>
+  <div> 
+    <input type="password" name="secret-password" value="secret">
+  </div>
+  <div>
+      <div class="languages ">
         <input type="radio" name="html">HTML
         <input type="radio" name="css" checked>CSS
         <input type="radio" name="javascript">Javascript
 
       </div>
-      <input type="range" class="input-margin" name="learningProgress" value="30">
-      <select class="input-margin" name="framework"> <!--Supplement an id here instead of using 'name'-->
+    </div>
+    <div>
+      <input type="range" name="learningProgress" value="30">
+      
+    </div>
+    <div>
+      <select  name="framework"> <!--Supplement an id here instead of using 'name'-->
         <option value="react">React</option>
         <option value="jquery" selected>jQuery</option>
         <option value="bootstrap">Bootstrap</option>
       </select>
-      <input class="input-margin" type="search" name="search" placeholder="Type first letters...">
-      <input class="input-margin" type="time" name="lunchEnd" value="14:01">
-      <input class="input-margin" type="url" name="website" placeholder="https://website.com" required>
-      <input class="input-margin" type="week" name="birthWeek" value="2021-W51">
-      <button class="input-margin" type="submit">Save</button>
+    </div>
+    <div>
+      <input type="search" name="search" placeholder="Type first letters...">
+    </div>
+    <div>
+      <input  type="time" name="lunchEnd" value="14:01">
+    </div>
+    <div>
+      <input  type="url" name="website" placeholder="https://website.com" required>
+    </div>
+    <div>
+      <input  type="week" name="birthWeek" value="2021-W51">
+    </div>
+    <div>
+      <button type="submit">Save</button>
   </form>
   </form>
    
