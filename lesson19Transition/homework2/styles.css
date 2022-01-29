@@ -16,7 +16,7 @@
   position: relative;
   animation:move-block 2s;
   animation-timing-function: ease;
-  animation-fill-mode: initial;
+  animation-fill-mode: forwards;
 
 }
 .block-text{
