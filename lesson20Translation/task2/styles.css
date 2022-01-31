@@ -13,7 +13,7 @@ body{
   text-transform: uppercase;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-  animation: hide 1s 2s ease, jump .5s .4s ease-in-out, spin .5s ease-in-out;
+  animation: jump .5s .4s ease-in-out, spin .5s ease-in-out, hide 1s 2s ease forwards;
  
 }
 @keyframes jump {
