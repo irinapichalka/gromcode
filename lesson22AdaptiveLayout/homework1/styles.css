@@ -11,14 +11,14 @@ html{
     background-color: #eee;
     display: flex;
 }
-.fa-bars{
+button{
     font-size: 2em;
     padding: 0;
     border: none;
     outline: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 0 auto;
+    margin: auto 0;
 }
 .main{
     display: flex;
