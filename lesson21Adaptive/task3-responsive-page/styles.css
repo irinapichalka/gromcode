@@ -40,7 +40,7 @@ footer{
 .nav-list li{
     background-color: #808080;
     color: white;
-    height: 2em;
+    line-height: 2em;
     margin-bottom: 0.5em;
 }
 .nav-list-link{
