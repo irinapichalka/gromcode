@@ -8,8 +8,8 @@ html {
 }
 body {
   display: flex;
-  height: 100vh;
   flex-direction: column;
+  height: 100vh;
 }
 .header {
   color: #fff;
@@ -17,13 +17,14 @@ body {
   background-image: linear-gradient(60deg, red, orange);
 }
 footer {
+  display: flex;
   background-color: #e5e5e5;
   padding: 0.5em;
   text-align: center;
 }
 .main {
   display: flex;
-  flex: 3;
+  flex: 2;
 }
 .navigation {
   width: 25%;
@@ -106,6 +107,7 @@ img {
   }
   .two-section {
     width: 100%;
+    flex: 2;
   }
   .navigation {
     width: 20%;
