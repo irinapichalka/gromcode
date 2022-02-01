@@ -26,7 +26,7 @@ footer {
   flex: 3;
 }
 .navigation {
-  width: 20%;
+  width: 25%;
   padding: 0.5em;
 }
 .nav-list {
@@ -51,7 +51,7 @@ footer {
   text-overflow: ellipsis;
 }
 .section {
-  width: 60%;
+  width: 75%;
   padding: 0.5em;
   font-size: 1.25em;
 }
@@ -77,9 +77,17 @@ img {
   width: 20%;
   padding: 0.5em;
 }
+.two-section {
+  display: flex;
+  width: 80%;
+}
 @media screen and (max-width: 600px) {
   .main {
     flex-direction: column;
+  }
+  .two-section {
+    flex-direction: column;
+    width: 100%;
   }
   .navigation {
     width: 100%;
@@ -91,12 +99,16 @@ img {
     width: 100%;
   }
 }
+
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .main {
     flex-direction: column;
   }
   .two-section {
-    display: flex;
+    width: 100%;
+  }
+  .navigation {
+    width: 20%;
   }
   .section {
     width: 80%;
