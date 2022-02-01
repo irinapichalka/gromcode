@@ -36,9 +36,11 @@ button {
   color: #fff;
   height: 2em;
   margin-bottom: 0.5em;
+  display: flex;
 }
 .nav-list-link {
   display: block;
+  margin: auto;
   width: 100%;
   padding: 0 0.5em;
   text-decoration: none;
