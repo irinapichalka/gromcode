@@ -91,3 +91,18 @@ img {
     width: 100%;
   }
 }
+.two-section {
+  display: flex;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+  }
+  .section {
+    width: 80%;
+  }
+  .news {
+    width: 100%;
+  }
+}
