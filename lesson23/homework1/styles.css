@@ -38,9 +38,6 @@ nav {
 .menu__item_active {
   color: yellow;
 }
-.menu__item-text:hover .submenu {
-  display: block;
-}
 
 .submenu {
   display: none;
@@ -60,6 +57,10 @@ nav {
 }
 .submenu__item:hover {
   color: #000;
+}
+
+.menu__item-text:hover .submenu {
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -28,9 +28,6 @@ nav{
         &_active{
             color: yellow;
         }
-        &-text:hover .submenu{
-            display: block;
-        }
     }
 
 }
@@ -53,4 +50,7 @@ nav{
             color: #000;
         }
     }
+}
+.menu__item-text:hover .submenu{
+    display: block;
 }

@@ -1,0 +1,39 @@
+@import "layout.scss";
+.navigation {
+  background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+}
+.products-list {
+  background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+}
+.news {
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
+}
+span {
+  margin: auto;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+.products {
+  @include for-medium-up {
+    display: flex;
+    flex: 2;
+  }
+}
+.content {
+  @include for-large-up {
+    display: flex;
+    flex: 3;
+  }
+}
