@@ -51,6 +51,6 @@ nav{
         }
     }
 }
-.menu__item-text:hover .submenu{
+.menu__item_active:hover .submenu{
     display: block;
 }
